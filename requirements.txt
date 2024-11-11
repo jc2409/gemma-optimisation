@@ -1,0 +1,8 @@
+torch>=2.0.0
+transformers>=4.38.0  # For Gemma support
+huggingface-hub>=0.20.0
+bitsandbytes>=0.41.0  # For quantization support
+accelerate>=0.27.0  # For device management and distributed training
+safetensors>=0.4.0  # For model loading
+tokenizers>=0.15.0  # Required by transformers
+regex>=2023.0.0  # For pattern matching in the chat templates
